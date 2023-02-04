@@ -53,7 +53,7 @@ layout = [
          [sg.Text('Taken gadget Type', size = (35,1)), sg.Combo(['A', 'B', 'C', 'D'], key = 'Taken gadget Type', readonly = True)], 
                                            
           
-          [sg.Text('Reason of Return: ', size = (35,1)), sg.Combo(['New Setup','OOC','EOD/Splashing', 'No Dispense', 'Others'], key = 'Reason', readonly = True), sg.Text('If "Others" selected, input reason, else put N/A: ', size = (35,1)), sg.InputText('N/A' , size = (10,1), key = 'Other Reason')],
+          [sg.Text('Reason of Return: ', size = (35,1)), sg.Combo(['New Setup','Out of Control','Faulty', 'Not Flashing', 'Others'], key = 'Reason', readonly = True), sg.Text('If "Others" selected, input reason, else put N/A: ', size = (35,1)), sg.InputText('N/A' , size = (10,1), key = 'Other Reason')],
     #           [sg.Text('If Other reason selected, input reason, else put N/A: ', size = (35,1)), sg.InputText('N/A' , key = 'Other Reason')],
             
           [sg.Button('Submit'),sg.Button('Clear'), sg.Button('Cancel')] 
